@@ -61,7 +61,7 @@ nav ul li a:hover {
 .yoga-section{
     height: 400px;
     width: 1200px;
-    margin-top: 20px; 
+    margin-top: 20px;
     position: relative;
 }
 
@@ -82,8 +82,13 @@ nav ul li a:hover {
 }
 
 h1{
+    padding-top: 10px;
     font-size: 30px;
     font-weight: 90px;
+}
+
+h3{
+    padding: 10px 0 10px 0;
 }
 
 p{
@@ -93,40 +98,40 @@ p{
 
 /* ROW */
 
-.row{
-   margin-top: 20px;
-   
+.banner{
+    height: 80px;
+    margin: 20px 0;
 }
 
-.row-top{
-    height: 80px;
-    margin-bottom: 20px;
+.row{
+   width: 1200px;
+   margin: 0 20px; 
 }
 
 .row-left{
-    background-color: #B0E0E6;
-    width: 20%; 
-    height: 300px;
+    width: 25%; 
+    text-align: justify;
     float: left;
+    padding-right: 15px;
+    border-radius: 10px;
 }
+
 
 .row-central{
-    background-color: #B0E0E6;
-    width: 656px; 
-    height: 300px;
-    /* margin-bottom: 20px; */
-    margin-left: 20px;
-    margin-right: 20px;  
+    width: 50%; 
+    text-align: justify;
     float: left;
+    border-radius: 10px;
 }
 
-.row-right{
-    background-color: #B0E0E6;
-    width: 20%; 
-    height: 300px;
-    /* margin-bottom: 20px; */
+
+
+ .row-right{
+    width: 25%; 
+    text-align: justify;
     float: left;
-}
+    border-radius: 10px;
+}  
 
 /* FOOTER */
 
@@ -136,5 +141,3 @@ footer {
     margin-top: 10px;
     
 }
-
-/* HO TOLTO IL MARGIN BOTTOM PERCHE' NON SERVIRA' PER L'ESERCIZIO FINALE */
