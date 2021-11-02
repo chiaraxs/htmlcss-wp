@@ -67,6 +67,7 @@ nav ul li a:hover {
 
 .yoga-section .yoga-img{
     background-image: url(../img/banner.jpg);
+    background-position: center;
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -88,7 +89,9 @@ h1{
 }
 
 h3{
-    padding: 10px 0 10px 0;
+    
+    padding: 20px 0 20px 0;
+
 }
 
 p{
@@ -112,18 +115,21 @@ p{
     width: 25%; 
     text-align: justify;
     float: left;
-    padding-right: 15px;
+    padding-right: 20px;
     border-radius: 10px;
 }
 
+img{
+    width: 100%;
+}
 
 .row-central{
     width: 50%; 
     text-align: justify;
     float: left;
+    padding-right: 20px;
     border-radius: 10px;
 }
-
 
  .row-right{
     width: 25%; 
@@ -131,6 +137,11 @@ p{
     float: left;
     border-radius: 10px;
 }  
+
+.row-img{
+    height: 300px;
+    border-bottom: 10px;
+}
 
 
 /* FOOTER */
