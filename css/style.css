@@ -125,7 +125,6 @@ p{
 }
 
 
-
  .row-right{
     width: 25%; 
     text-align: justify;
@@ -133,11 +132,15 @@ p{
     border-radius: 10px;
 }  
 
+
 /* FOOTER */
 
 footer {
-    background-color: rgb(61, 4, 61);
+    text-align: center;
     height: 50px;
-    margin-top: 10px;
-    
+    margin-top: 20px;
+}
+
+.heart{
+    color: red;
 }
