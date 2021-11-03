@@ -66,7 +66,7 @@ nav ul li a:hover {
 }
 
 .yoga-section .yoga-img{
-    background-image: url(../img/banner.jpg);
+    background: url("../img/banner.jpg");
     background-position: center;
     width: 100%;
     height: 100%;
@@ -75,11 +75,11 @@ nav ul li a:hover {
 }
 
 .yoga-section .yoga-text{
+    width: 50%;
     position: absolute;
     color: rgb(73, 70, 70);
     left: 40px;
     bottom: 40px;
-    text-align:left
 }
 
 h1{
@@ -100,6 +100,18 @@ p{
 }
 
 /* ROW */
+
+.overlay {
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.2;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
 
 .banner{
     height: 80px;
@@ -141,6 +153,7 @@ img{
 .row-img{
     height: 300px;
     border-bottom: 10px;
+    /* background-size: cover; */
 }
 
 
